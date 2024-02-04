@@ -17,6 +17,7 @@ function handleFormSubmit(event){
     };
  const newobj = JSON.stringify(obj);
  localStorage.setItem(email, newobj);
+    //implementing delete function
    const deleteButton = newLi.querySelector('.delete-btn');
     deleteButton.addEventListener('click', function() {
         // Remove the user's details from local storage
